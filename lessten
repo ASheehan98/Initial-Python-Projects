@@ -1,10 +1,12 @@
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-#Find where inputted list is less than 10
-#return that in a new list
-b = []
+#Write a function that takes a list and returns a list of values less than 10
+a = [1,2,3,4,8,5,6,10,15,98,55,44,23,87,.7]
+
 def lessten(x):
+    y = []
     for i in range(len(x)):
         if x[i] < 10:
-            b.append(x[i])
-    print(b)
+            y.append(x[i])
+    print(y)
+
+
 lessten(a)
