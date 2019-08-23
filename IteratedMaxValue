@@ -1,0 +1,9 @@
+testarray = [2,3,4,5,12,123,23423,3534,54]
+#Find maximum value in an array by iterating over each element within the array.
+def intermaxvalue(arr):
+    max = 0
+    for i in range(0,len(arr) - 1):
+        if arr[i] > max:
+            max = arr[i]
+    return max
+print(intermaxvalue(testarray))
