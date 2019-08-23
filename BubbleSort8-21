@@ -1,0 +1,12 @@
+testarray = [2,1,22,52,98,44,12]
+def bubsort(x):
+    n = len(x)
+    for i in range(n):
+        for j in range(0,n-i-1):
+            if x[j] > x[j+1]:
+                x[j],x[j+1] = x[j+1],x[j]
+
+bubsort(testarray)
+print ("Sorted array is:")
+for i in range(len(testarray)):
+    print ("%d" %testarray[i]),
