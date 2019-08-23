@@ -1,4 +1,6 @@
 testlist = [2,3,4,1,5,7,45,32,87,34,65,78]
+#Find minimum value by iterating over the inputted array.
+#Min has to be set to max value in Python
 def iterminvalue(arr):
     min = 9223372036854775807
     for i in range(0,len(arr) - 1):
